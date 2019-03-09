@@ -93,7 +93,9 @@ ion-icon {
     color: #e67e22;
     margin-bottom: 10px;
     margin-top: 30px;
+    vertical-align: middle;
   }
+
 
 /* -------------------------- */
 /* BUTTONS */
@@ -143,6 +145,7 @@ ion-icon {
 /* -------------------------- */
 /* RESUABLE COMPONENTS */
 /* -------------------------- */
+
 
 .row {
     max-width: 1140px;
@@ -288,8 +291,8 @@ header {
     border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
-    height: 55px;
-    width: 55px;
+    height: 54px;
+    width: 54px;
     text-align: center;
     padding: 5px;
     float: left;
@@ -301,4 +304,19 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+
+/* -------------------------- */
+/* CITIES */
+/* -------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
